@@ -1,9 +1,8 @@
 # Habit Hero – Django + React Full Stack Habit Tracker
 
-Habit Hero is a simple full-stack habit tracking application built using Django for the backend and React for the frontend.
-Users can create habits, choose a category, select the frequency, and view all habits in a clean interface.
+Habit Hero is a simple full-stack habit tracking application built using Django for the backend and React for the frontend. Users can create habits, choose a category, select the frequency, and view all habits in a clean interface.
 
-------------------------------------------------------------
+---
 
 ## Features
 
@@ -14,7 +13,7 @@ Users can create habits, choose a category, select the frequency, and view all h
 - Django REST API connected to React
 - CORS enabled for frontend–backend communication
 
-------------------------------------------------------------
+---
 
 ## Tech Stack
 
@@ -27,64 +26,47 @@ Users can create habits, choose a category, select the frequency, and view all h
 - React
 - Axios
 
-------------------------------------------------------------
-
-## Folder Structure
-
-habit-hero/
-    habit-hero-backend/        # Django backend
-        habit_hero/            # Settings and URLs
-        tracker/               # Models, Serializer, Views, URLs
-        db.sqlite3
-        manage.py
-
-    habit-hero-frontend/       # React frontend
-        src/
-        public/
-        package.json
-
-------------------------------------------------------------
+---
 
 ## API Endpoints
 
-Method      Endpoint              Description
-GET         /api/habits/          Get all habits
-POST        /api/habits/          Add a habit
-PUT         /api/habits/<id>/     Update a habit
-DELETE      /api/habits/<id>/     Delete a habit
+| Method | Endpoint            | Description      |
+|--------|----------------------|------------------|
+| GET    | /api/habits/         | Get all habits   |
+| POST   | /api/habits/         | Add a habit      |
+| PUT    | /api/habits/<id>/    | Update a habit   |
+| DELETE | /api/habits/<id>/    | Delete a habit   |
 
-------------------------------------------------------------
+---
 
 ## How to Run the Project
 
 ### Backend Setup
-cd habit-hero-backend
-python -m venv venv
-venv\Scripts\activate
-pip install django djangorestframework django-cors-headers
-python manage.py runserver
+cd habit-hero-backend  
+python -m venv venv  
+venv\Scripts\activate  
+pip install django djangorestframework django-cors-headers  
+python manage.py runserver  
 
 Backend URL: http://127.0.0.1:8000/
 
-------------------------------------------------------------
+---
 
 ### Frontend Setup
-cd habit-hero-frontend
-npm install
-npm start
+cd habit-hero-frontend  
+npm install  
+npm start  
 
 Frontend URL: http://localhost:3000/
 
-------------------------------------------------------------
+---
 
 ## Demo Video
-
 (Add your demo video link after recording)
 
-Example:
-https://youtu.be/your-demo-video
+Example: https://youtu.be/your-demo-video
 
-------------------------------------------------------------
+---
 
 ## Future Enhancements
 
@@ -94,10 +76,14 @@ https://youtu.be/your-demo-video
 - User-specific habits
 - Additional UI improvements
 
-------------------------------------------------------------
+---
 
 ## Developed By
 
-Ajay Krishnan
+Ajay Krishnan  
+B.Tech Computer Science and Design Graduate
 
+---
 
+## Repository Link
+https://github.com/its-ak7/habit-hero
