@@ -1,59 +1,59 @@
 # Habit Hero – Django + React Full Stack Habit Tracker
 
-Habit Hero is a simple full-stack habit tracking application built using Django for the backend and React for the frontend.  
-Users can add habits, choose a category, select how often they want to follow the habit, and view all habits in a clean interface.
+Habit Hero is a simple full-stack habit tracking application built using Django for the backend and React for the frontend.
+Users can create habits, choose a category, select the frequency, and view all habits in a clean interface.
 
+------------------------------------------------------------
 
-## 🚀 Features
+## Features
 
-- Add new habits  
-- View all habits  
-- Choose category and frequency  
-- Responsive and simple UI  
-- Django REST API connected to React  
-- CORS enabled for frontend–backend communication  
+- Add new habits
+- View all habits
+- Category and frequency selection
+- Simple and responsive UI
+- Django REST API connected to React
+- CORS enabled for frontend–backend communication
 
+------------------------------------------------------------
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 ### Backend
-- Django  
-- Django REST Framework  
-- SQLite  
+- Django
+- Django REST Framework
+- SQLite
 
 ### Frontend
-- React  
-- Axios  
-- React Icons  
+- React
+- Axios
 
+------------------------------------------------------------
 
-## 📁 Folder Structure
+## Folder Structure
 
 habit-hero/
-│
-├── habit-hero-backend/ # Backend (Django)
-│ ├── habit_hero/ # Settings and URLs
-│ ├── tracker/ # Models, Serializer, Views, URLs
-│ ├── db.sqlite3
-│ └── manage.py
-│
-└── habit-hero-frontend/ # Frontend (React)
-├── src/
-├── public/
-└── package.json
+    habit-hero-backend/        # Django backend
+        habit_hero/            # Settings and URLs
+        tracker/               # Models, Serializer, Views, URLs
+        db.sqlite3
+        manage.py
 
+    habit-hero-frontend/       # React frontend
+        src/
+        public/
+        package.json
 
+------------------------------------------------------------
 
-## 🔗 API Endpoints
+## API Endpoints
 
-| Method | Endpoint            | Description      |
-|--------|----------------------|------------------|
-| GET    | /api/habits/         | Get all habits   |
-| POST   | /api/habits/         | Add a habit      |
-| PUT    | /api/habits/<id>/    | Update a habit   |
-| DELETE | /api/habits/<id>/    | Delete a habit   |
+Method      Endpoint              Description
+GET         /api/habits/          Get all habits
+POST        /api/habits/          Add a habit
+PUT         /api/habits/<id>/     Update a habit
+DELETE      /api/habits/<id>/     Delete a habit
 
-
+------------------------------------------------------------
 
 ## How to Run the Project
 
@@ -64,48 +64,40 @@ venv\Scripts\activate
 pip install django djangorestframework django-cors-headers
 python manage.py runserver
 
+Backend URL: http://127.0.0.1:8000/
 
-Backend runs at:  
-http://127.0.0.1:8000/
-
+------------------------------------------------------------
 
 ### Frontend Setup
 cd habit-hero-frontend
 npm install
 npm start
 
+Frontend URL: http://localhost:3000/
 
-Frontend runs at:  
-http://localhost:3000/
+------------------------------------------------------------
 
+## Demo Video
 
-
-## Screenshots
-
-(Add your screenshot image here after uploading)
+(Add your demo video link after recording)
 
 Example:
-
-
-## 🎥 Demo Video
-
-(After recording, paste your demo video link here)
-
-Example:  
 https://youtu.be/your-demo-video
 
-
+------------------------------------------------------------
 
 ## Future Enhancements
 
-- User login system  
-- Streak tracking  
-- Habit analytics  
-- User-specific habits  
-- AI-based suggestions  
+- User login and authentication
+- Habit streak tracking
+- Progress analytics
+- User-specific habits
+- Additional UI improvements
+
+------------------------------------------------------------
+
+## Developed By
+
+Ajay Krishnan
 
 
-
-## Developed By  
-**Ajay Krishnan**  
-B.Tech Computer Science and Design Graduate
