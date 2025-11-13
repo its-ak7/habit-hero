@@ -62,9 +62,8 @@ Frontend URL: http://localhost:3000/
 ---
 
 ## Demo Video
-(Add your demo video link after recording)
 
-Example: https://youtu.be/your-demo-video
+https://drive.google.com/file/d/15qA-xPdJ6V743OvTi2UHr7cqfNUtciOO/view?usp=sharing
 
 ---
 
